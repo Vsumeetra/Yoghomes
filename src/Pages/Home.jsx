@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from '../Components/Navbar'
-import Homeone from '../Components/Homeone'
+// import Homeone from '../Components/Homeone'
 import Homemarqueeone from '../Components/Homemarqueeone'
 import Homeabout from '../Components/Homeabout'
 import Homethree from '../Components/Homethree'
@@ -34,7 +34,7 @@ const Home = () => {
                 <meta property="og:image" content="https://www.arogyayoghome.com/assets/logo-B1E64yEd.png" />
               </MetaTags> */}
     <Navbar/>
-    <Homeone/>
+    {/* <Homeone/> */}
     <Homemarqueeone/>
     <Homeabout/>
     <Homethree/>
