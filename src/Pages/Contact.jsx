@@ -3,7 +3,7 @@ import Banner from '../Components/Banner'
 import bannerthree from '../Images/banner.jpg'
 import Contactone from '../Components/Contactone'
 import Contacttwo from '../Components/Contacttwo'
-import { MetaTags } from 'react-meta-tags'
+// import { MetaTags } from 'react-meta-tags'
 import twentytwo from '../Images/Banner/TWENTYTWO.jpg'
 
 const Contact = () => {
@@ -12,7 +12,7 @@ const Contact = () => {
         },[]);
   return (
     <>
-    <MetaTags>
+    {/* <MetaTags>
                         <title>Yoga Centre In Andheri | Arogya Yoghome LLP</title>
                         <meta title="Yoga Centre In Andheri | Arogya Yoghome LLP" />
                         <meta name="description" content="Arogya Yoghome LLP is a premier Yoga Centre in Andheri, offering expert-led yoga sessions to enhance wellness and mindfulness." />
@@ -27,7 +27,7 @@ const Contact = () => {
                         <meta property="og:url" content="https://www.arogyayoghome.com/" />
                         <meta property="og:description" content="Arogya Yoghome LLP is a premier Yoga Centre in Andheri, offering expert-led yoga sessions to enhance wellness and mindfulness." />
                         <meta property="og:image" content="https://www.arogyayoghome.com/assets/logo-B1E64yEd.png" />
-                      </MetaTags>
+                      </MetaTags> */}
     <Banner head='Yoga Centre In Andheri ' banner={twentytwo} title='CONTACT US'/>
     <Contactone/>
     <Contacttwo/>

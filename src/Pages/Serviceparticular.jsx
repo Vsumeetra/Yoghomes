@@ -5,7 +5,7 @@ import bannerone from "../Images/banner.jpg";
 import Banner from '../Components/Banner';
 import { RxArrowTopRight } from "react-icons/rx";
 import Servicetype from '../Data/Servicetype';
-import { MetaTags } from 'react-meta-tags';
+// import { MetaTags } from 'react-meta-tags';
 
 const Serviceparticular = () => {
     const path = useLocation();
@@ -16,7 +16,7 @@ const Serviceparticular = () => {
   const servicedata=Servicedata.filter(data=>data.type===type.name)
   return (
     <>
-     <MetaTags>
+     {/* <MetaTags>
                                     <title>{type.title}</title>
                                     <meta title={type.title} />
                                     <meta name="description" content={type.description} />
@@ -31,7 +31,7 @@ const Serviceparticular = () => {
                                     <meta property="og:url" content="https://www.arogyayoghome.com/" />
                                     <meta property="og:description" content={type.description} />
                                     <meta property="og:image" content="https://www.arogyayoghome.com/assets/logo-B1E64yEd.png" />
-                                  </MetaTags>
+                                  </MetaTags> */}
               <Banner banner={bannerone} head={type.head} title={type.name} />
               <div className="container-fluid px-5 my-5">
                 <div className="row">

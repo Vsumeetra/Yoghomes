@@ -7,7 +7,7 @@ import Aboutthree from '../Components/Aboutthree'
 import AboutMarquee from '../Components/AboutMarquee'
 import Hometrainer from '../Components/Hometrainer'
 import Hometestimonial from '../Components/Hometestimonial'
-import { MetaTags } from 'react-meta-tags'
+// import { MetaTags } from 'react-meta-tags'
 import six from  '../Images/Banner/SIX.jpg'
 const About = () => {
    useEffect(() => {
@@ -15,7 +15,7 @@ const About = () => {
         },[]);
   return (
     <>
-     <MetaTags>
+     {/* <MetaTags>
                     <title>Yoga Class Near Andheri | Arogya Yoghome LLP</title>
                     <meta title="Yoga Class Near Andheri | Arogya Yoghome LLP" />
                     <meta name="description" content="Discover the best Yoga Class Near Andheri at Arogya Yoghome LLP, offering holistic wellness and personalized yoga sessions." />
@@ -30,7 +30,7 @@ const About = () => {
                     <meta property="og:url" content="https://www.arogyayoghome.com/" />
                     <meta property="og:description" content="Discover the best Yoga Class Near Andheri at Arogya Yoghome LLP, offering holistic wellness and personalized yoga sessions." />
                     <meta property="og:image" content="https://www.arogyayoghome.com/assets/logo-B1E64yEd.png" />
-                  </MetaTags>
+                  </MetaTags> */}
     <Banner head='Yoga Class Near Andheri ' banner={six} title='ABOUT US'/>
     <Aboutone/> 
     <Abouttwo/>

@@ -8,7 +8,7 @@ import Hometrainer from '../Components/Hometrainer'
 import Hometestimonial from '../Components/Hometestimonial'
 import Homewcu from '../Components/Homewcu'
 import Footer from '../Components/Footer'
-import { MetaTags } from 'react-meta-tags'
+// import { MetaTags } from 'react-meta-tags'
 
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
       },[]);
   return (
     <>
-    <MetaTags>
+    {/* <MetaTags>
                 <title>Best Yoga Trainner in Andheri | Arogya Yoghome LLP</title>
                 <meta title="Best Yoga Trainner in Andheri | Arogya Yoghome LLP" />
                 <meta name="description" content="Arogya Yoghome LLP offers the Best Yoga Trainer in Andheri, providing personalized yoga sessions for enhanced health and wellness." />
@@ -32,7 +32,7 @@ const Home = () => {
                 <meta property="og:url" content="https://www.arogyayoghome.com/" />
                 <meta property="og:description" content="Arogya Yoghome LLP offers the Best Yoga Trainer in Andheri, providing personalized yoga sessions for enhanced health and wellness." />
                 <meta property="og:image" content="https://www.arogyayoghome.com/assets/logo-B1E64yEd.png" />
-              </MetaTags>
+              </MetaTags> */}
     <Navbar/>
     <Homeone/>
     <Homemarqueeone/>

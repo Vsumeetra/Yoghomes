@@ -12,7 +12,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 import imgfour from "../Images/widget-img.webp";
 import pattern from "../Images/pattern.png";
 import { FiPhoneCall } from "react-icons/fi";
-import { MetaTags } from "react-meta-tags";
+// import { MetaTags } from "react-meta-tags";
 
 const Service = () => {
   const path = useLocation();
@@ -30,7 +30,7 @@ const Service = () => {
     <>
       {Servicedata.filter((data) => data.slug === search).map((data) => (
         <>
-         <MetaTags>
+         {/* <MetaTags>
                                 <title>{data.title}</title>
                                 <meta title={data.title} />
                                 <meta name="description" content={data.description} />
@@ -45,7 +45,7 @@ const Service = () => {
                                 <meta property="og:url" content="https://www.arogyayoghome.com/" />
                                 <meta property="og:description" content={data.description} />
                                 <meta property="og:image" content="https://www.arogyayoghome.com/assets/logo-B1E64yEd.png" />
-                              </MetaTags>
+                              </MetaTags> */}
           <Banner head={data.head} banner={data.bannerimg||bannerone} title={data.name} />
           <div className="container-fluid p-4 my-5">
             <div className="row">
