@@ -1,0 +1,34 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow:/
+Allow:/yoga-class-near-andheri
+Allow:/yoga-centre-andheri
+Allow:/personal-yoga-classes-andheri
+Allow:/group-yoga-classes-andheri
+Allow:/corporate-yoga-classes-andheri
+Allow:/women-yoga-classes-andheri
+Allow:/couple-yoga-classes-andheri
+Allow:/corporate-yoga-programs-andheri
+Allow:/yoga-for-abroad
+Allow:/occupational-therapy-yoga-classes-andheri
+Allow:/resort-and-tourist-yoga
+Allow:/online-yoga-classes-andheri
+Allow:/orthopedic-online-consultant-andheri
+Allow:/online-gynic-consultant-andheri
+Allow:/yoga-expert-andheri
+Allow:/motivational-consultation-andheri
+Allow:/best-yoga-therapists-andheri
+Allow:/yoga-therapists-andheri
+Allow:/traditional-yoga-andheri
+Allow:/best-ashtanga-yoga-andheri
+Allow:/hatha-yoga-classes-andheri
+Allow:/power-yoga-classes-andheri
+Allow:/raja-yoga-classes-andheri
+Allow:/chair-yoga-andheri
+Allow:/straps-band-yoga-andheri
+Allow:/best-competitive-yogasana-andheri
+Allow:/pranic-healing-centres-andheri
+Allow:/best-yoga-classes-andheri-west
+Allow:/doctor-consultation-andheri-west
+Allow:/yoga-andheri-west
+Allow: /sitemap.xml

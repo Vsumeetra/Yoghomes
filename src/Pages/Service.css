@@ -1,0 +1,176 @@
+.serviceli{
+    list-style-type: none;
+    
+    transition: all ease .9s;
+}
+.serviceliactive{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.serviceliactive>div>h4{
+    color: var(--primary-color);
+}
+.serviceliactive>div>.serviceliarrow{
+    background-color: var(--primary-color);
+}
+
+
+
+.serviceultitle{
+    font-family: var(--head-font);
+    color: black;
+    position: relative;
+}
+.serviceultitle::before{
+    content: '*';
+position: absolute;
+top: 15%;
+left: 0;
+color: var(--primary-color);
+
+}
+.accordion-collapse.collapse.show{
+    background-color: transparent !important;
+}
+.accordion-collapse.collapsing{
+    background-color: transparent !important;
+}
+.servicelititle{
+    font-family: var(--head-font);
+    color: black;
+    position: relative;
+    font-size: 18px;
+    transition: all ease .5s;
+}
+.servicelititle::before{
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+position: absolute;
+top: 50%;
+left: 0;
+color: var(--primary-color);
+
+}
+.serviceliarrow{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: all ease .9s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    color: var(--primary-color);
+}
+.arrowactive{
+    color: white;
+}
+.serviceli:hover{
+    transform: translateX(5%)
+    }
+    .serviceli:hover .servicelititle{
+        color: var(--primary-color);
+        }
+.serviceli:hover .serviceliarrow{
+ background-color: var(--primary-color);
+}
+.serviceli:hover .serviceliarrow{
+ background-color: var(--primary-color);
+}
+.serviceli:hover .arrow{
+    color: white;
+   }
+
+
+
+
+
+
+   .mainimgservice{
+    height: 500px;
+    width: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+.accordion .accordion-item {
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+}
+
+.accordion .accordion-header {
+    background-color: transparent; /* Set the header background to transparent */
+}
+
+.accordion .accordion-button {
+    background-color: transparent; /* Set the button background to transparent */
+    color: inherit; /* Optional: inherit text color */
+    border: none; /* Remove the button border */
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: transparent; /* Set the active button background to transparent */
+    border: none; /* Remove the active button border */
+}
+
+.accordion .accordion-collapse {
+    border: none; /* Remove the border from the collapse area */
+}
+
+
+
+.accordion-button {
+    border: none !important;
+    background-color: transparent !important;
+    border-radius: 10px !important; /* Increase border radius */
+    box-shadow: none !important; /* Remove box-shadow */
+    font-family: 'Arial', sans-serif; /* Set font-family for headings */
+    font-size: 18px; /* Set size for the headings */
+    color: #000 !important; /* Text color */
+  }
+  
+  /* Change the accordion header's background color to white */
+  .accordion-button {
+    background-color: white !important;
+    color: black !important; /* Set arrow color */
+    font-family: var(--head-font); /* Set font-family */
+  }
+  
+  /* Accordion item active state */
+  .accordion-button:not(.collapsed) {
+    background-color: var(--primary-color) !important; /* Active state background color */
+    color: white !important; /* Active state text color */
+  }
+  
+  /* Focused state - Increase the border-radius */
+  .accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 15px !important; /* Increased border radius on focus */
+  }
+  
+  /* Change arrow color for active state */
+  .accordion-button:not(.collapsed)::after {
+    color: white !important; /* Active arrow color */
+  }
+  
+  /* Body text styling */
+  .accordion-body {
+    font-family: 'Arial', sans-serif; /* Set font-family for the body */
+    font-size: 16px; /* Set size for the body text */
+    background-color: transparent !important;
+  }

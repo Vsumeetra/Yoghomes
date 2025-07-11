@@ -1,0 +1,26 @@
+.abouttworow{
+    
+        background-color: white;
+        border-radius: 32px;
+        height: 350px;
+    
+}
+.abouttwoimg{
+        width: 90%;
+}
+
+/* Extra-large devices (>= 992px) */
+@media (max-width: 992px) {
+    .abouttworow{
+    
+        background-color: white;
+        border-radius: 32px;
+        height: max-content;
+    
+}
+.abouttwoimg{
+        width: 100%;
+        
+}
+  }
+  

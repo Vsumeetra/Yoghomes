@@ -1,0 +1,68 @@
+
+.hometrainercard {
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 16px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.hometrainercard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.hometrainercardimg {
+  width: 100%;
+  height: 180px; 
+  object-fit: contain;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+/* Headings & Text */
+.hometrainercard h4 {
+  font-size: 1.4rem; /* Smaller heading */
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.hometrainercard h6 {
+  font-size: 1rem;
+  color: grey;
+  margin-bottom: 12px;
+}
+
+.hometrainercard p {
+  font-size: 0.95rem;
+  flex-grow: 1; /* Pushes button to bottom */
+}
+
+/* Button Styling */
+.button {
+  align-self: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Responsive Adjustments (Optional - if needed later) */
+@media (max-width: 768px) {
+  .hometrainercardimg {
+    height: 150px; 
+  }
+}

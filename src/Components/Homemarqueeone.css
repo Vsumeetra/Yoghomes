@@ -1,0 +1,62 @@
+.pbmit-marquee-effect-style-1 .pbmit-element-title {
+    
+    line-height: 110px!important;
+    position: relative!important;
+    overflow: visible!important;
+    display: flex;
+    font-weight: 800 !important;
+    overflow: visible!important;
+    font-family: var(--head-font);
+    text-shadow: 1px 1px 0 rgba(24, 26, 23,.8), -1px -1px 0 rgba(24, 26, 23,.8), 1px -1px 0 rgba(24, 26, 23,.8), -1px 1px 0 rgba(24, 26, 23,.8), 1px 1px 0 rgba(24, 26, 23,.8);
+    -webkit-text-fill-color: #e9f0ec;
+    -webkit-text-stroke-width: 0;
+    color: transparent;
+    letter-spacing: 0.8px;
+    }
+    .pbmit-marquee-effect-style-1 .pbmit-element-title:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    content: attr(data-text);
+    transition: max-width .8s cubic-bezier(.22, .61, .36, 1);
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: transparent;
+    max-width: 0;
+    }
+    .pbmit-marquee-effect-style-1 .pbmit-element-title:hover:before {
+    max-width: 100%;
+    }
+    .pbmit-marquee-effect-style-1 .pbmit-tag-wrapper{
+    padding-left: 100px;
+    margin-left: 60px;
+    position: relative;
+    }
+    .pbmit-marquee-effect-style-1 .pbmit-tag-wrapper::before{
+    content: "\002A";
+    font-family: "pbminfotech-base-icons";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 100px;
+    line-height: 60px;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    }
+    .marquee-wrapper {
+        overflow: hidden; /* Hide the overflow content */
+        white-space: nowrap; /* Prevent the text from wrapping */
+      }
+      
+      .marquee {
+        display: flex; /* Make the content scroll horizontally */
+        white-space: nowrap; /* Ensure the content stays on one line */
+      }
+      
+      .pbmit-marquee-effect-style-1 {
+        display: inline-block;
+        padding: 0 20px;
+      }
+          

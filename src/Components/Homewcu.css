@@ -1,0 +1,20 @@
+.circle-background{
+    fill: var(--secondary-color);
+   
+    stroke:  var(--secondary-color);
+    opacity: 1;
+}
+.circle-progress{
+    fill: none;
+    stroke:  white;
+}
+.homethreebtn{
+    
+        border: 2px solid white;
+        color: white;
+}
+.homethreebtn:hover{
+    
+    border: 2px solid white;
+    color: white;
+}
