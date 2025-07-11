@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Trainerdetail from '../Data/Trainerdetail';
 import Banner from '../Components/Banner';
@@ -12,6 +12,9 @@ const TrainerDet = () => {
   if (!trainer) {
     return <h2>Trainer Not Found</h2>;
   }
+     useEffect(() => {
+              window.scrollTo(0, 0);
+          },[]);
 
   return (
     <>
